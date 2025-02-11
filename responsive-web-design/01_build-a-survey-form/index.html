@@ -1,0 +1,49 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <title>Survey Form</title>
+    <meta charset="utf-8">
+    <link rel="stylesheet" href="styles.css">
+  </head>
+  <body>
+    <header>
+      <h1 id="title">Purrfect Adoption Form</h1>
+      <p id="description">Adopting a cat is an exciting and rewarding experience. This form will help us match you with the perfect feline companion. Please provide the necessary details and answer the questions honestly to ensure the best fit for both you and the cat.</p>
+    </header>
+<main>
+<form action="#" method="post" id="survey-form">
+<fieldset>
+  <legend>Personal Information</legend>
+  <label class="inline" id="name-label" for="name">Name: <input type="text" placeholder="Your name" id="name" required/></label>
+  <label class="inline" id="email-label" for="email">Email: <input type="email" placeholder="Your email" id="email" required/></label>
+  <label class="inline" id="number-label" for="number">Age: <input type="number" min="18" max="99" placeholder="Your age" id="number" required/></label>
+</fieldset>
+<fieldset>
+  <legend>Do you have experience with cats?</legend>
+  <select id="dropdown">
+    <option>select one</option>
+    <option>yes</option>
+    <option>no</option>
+  </select>
+</fieldset>
+<fieldset>
+  <legend>Do you want specific gender?</legend>
+  <label><input type="radio" id="male" value="male" name="gender" /> Male</label>
+  <label><input type="radio" id="female" value="female" name="gender" /> Female</label>
+  <label><input type="radio" id="no-preference" value="no preference" name="gender" checked /> No preference</label>
+</fieldset>
+<fieldset>
+  <legend>Do any of these apply to you?</legend>
+  <label><input type="checkbox" value="travels-lot"/> I travel a lot</label>
+  <label><input type="checkbox" value="long-hours"/> I'm working long hours</label>
+  <label><input type="checkbox" value="living-alone"/> I live alone</label>
+</fieldset>
+<fieldset><label>Your comments: <textarea >Any additional comments here</textarea></label></fieldset>
+<button id="submit" type="submit">Submit</button>
+</form>
+</main>
+<footer>
+<p>Created on Jan 14th 2025 by jaroslavjanik</p>
+</footer>
+  </body>
+</html>

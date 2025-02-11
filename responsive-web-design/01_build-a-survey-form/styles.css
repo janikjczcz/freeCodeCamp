@@ -1,0 +1,48 @@
+body {
+  background-color:#000044;
+}
+
+h1, p {
+  font-family: sans-serif;
+  max-width: 70ch;
+  text-align:center;
+  margin: 0 auto;
+  color:white;
+}
+
+h1 {
+  margin: 0 auto 1.5rem auto;
+}
+
+#survey-form {
+  max-width:550px;
+  margin:2.5rem auto;
+  background-color:#000044;
+  color:white;
+  padding: 1rem;
+  border: 2px dotted white;
+}
+
+fieldset {
+  padding: 1.5rem 0;
+  border:none;
+}
+
+input[type="number"] {min-width: 150px;}
+
+input, select, textarea {
+  display:block;
+  min-height:2rem;
+  padding: 0.5rem 0;
+  background-color: #000011;
+  color:white;
+}
+
+::placeholder {color:white;}
+
+label {display:block;}
+
+input[type="radio"], input[type="checkbox"] {
+  display:inline-block;
+  vertical-align:middle;
+}
