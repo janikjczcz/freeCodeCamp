@@ -1,0 +1,136 @@
+* {
+    box-sizing: border-box;
+    scroll-behavior: smooth;
+  }
+  
+  body {
+    min-width: 180px;
+    background-color: #fafafa;
+    padding: 0;
+    margin: 0;
+  }
+  
+  #navbar {
+    position: fixed;
+    min-width: 300px;
+    border-right: 2px solid #000;
+    height: 100%;
+  }
+  
+  #navbar ul {
+    height: 88%;
+    list-style: none;
+    padding-left: 0;
+  }
+  
+  #navbar li {
+    border-top: 1px solid #000;
+    padding-left: 1rem;
+    color: black;
+  }
+  
+  #navbar li:last-of-type {
+    border-bottom: 1px solid #000;
+  }
+  
+  #navbar a {
+    text-decoration: none;
+    color: inherit;
+    display: block;
+    font-size:1.15rem;
+    padding: 0.5rem 0;
+  }
+  
+  #navbar li:has(a:hover) {
+    background-color: gray;
+    color: #fff;
+  }
+  
+  #main-doc {
+    position: absolute;
+    margin-left: 310px;
+    top: 2rem;
+    overflow: hidden;
+    padding: 0 1rem 0 0;
+  }
+  
+  section {
+    margin-bottom: 2rem;
+  }
+  
+  
+  
+  pre {
+    background-color: #d0d0d0;
+  }
+  
+  li > code {
+    background-color: #d0d0d0;
+  }
+  
+  code {
+    display: inline-block;
+    text-align: start;
+    white-space: pre-line;
+    line-height: 2;
+    padding: 0 0.25rem;
+    border-radius: 10px;
+  }
+  
+  pre > code {
+    padding: 1rem;
+  }
+  
+  pre {
+    border-radius: 10px;
+    margin-left: 1rem;
+  }
+  
+  li,
+  p {
+    line-height: 2;
+  }
+  
+  header {
+    font-weight:bold;
+    font-size:1.25rem;
+  }
+  
+  #navbar header {
+    padding-left:1rem;
+    font-family:Verdana, sans-serif;
+  }
+  
+  
+  @media (max-width: 768px) {
+    #navbar {
+      height: 180px;
+      width: 100%;
+      padding: 0;
+      border-bottom: 2px solid #000;
+      border-right: none;
+      overflow-x: none;
+      overflow-y: auto;
+      background: #f7f7f7;
+      z-index: 1;
+    }
+  
+    #main-doc {
+      top: 210px;
+      margin-left: 0;
+      padding: 0 1rem;
+      width: 100%;
+      z-index: 0;
+    }
+  
+    pre > code {
+      display: block;
+      margin-left: 0.5rem;
+    }
+  
+    pre {
+      margin-left: 0rem;
+      width: 100%;
+    }
+  }
+  

@@ -1,0 +1,122 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>First Steps in HTML</title>
+    <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+    <nav id="navbar">
+        <header>First Steps in HTML</header>
+        <ul>
+          <li><a href="#introduction_to_html" class="nav-link">Introduction to HTML</a></li>
+          <li><a href="#basic_html_structure" class="nav-link">Basic HTML Structure</a></li>
+          <li><a href="#common_html_elements" class="nav-link">Common HTML Elements</a></li>
+          <li><a href="#lists_in_html" class="nav-link">Lists in HTML</a></li>
+          <li><a href="#adding_links_and_images" class="nav-link">Adding Links and Images</a></li>
+        </ul>
+      </nav>
+      <main id="main-doc">
+        <section class="main-section">
+          <header id="introduction_to_html">Introduction to HTML</header>
+          <p>HTML (HyperText Markup Language) is the standard language for creating web pages. It provides the structure of a webpage, defining elements such as headings, paragraphs, links, and images.</p>
+          <pre>
+          <code>&lt;!DOCTYPE html&gt;
+            &lt;html&gt;
+            &nbsp;&lt;head&gt;
+            &nbsp;&nbsp;&lt;title&gt;My First HTML Page&lt;/title&gt;
+            &nbsp;&lt;/head&gt;
+            &nbsp;&lt;body&gt;
+            &nbsp;&nbsp;&lt;h1&gt;Welcome to HTML&lt;/h1&gt;
+            &nbsp;&nbsp;&lt;p&gt;This is my first paragraph.&lt;/p&gt;
+            &nbsp;&lt;/body&gt;
+      &lt;/html&gt;</code>
+          </pre>
+        </section>
+        <section class="main-section">
+          <header id="basic_html_structure">Basic HTML Structure</header>
+          <p>A simple HTML document consists of the following key components:</p>
+          <ul>
+            <li><code>&lt;!DOCTYPE html&gt;</code> – Declares the document type.</li>
+            <li><code>&lt;html&gt;</code> – The root element of an HTML page.</li>
+            <li><code>&lt;head&gt;</code> – Contains metadata, styles, and the page title.</li>
+            <li><code>&lt;body&gt;</code> – Contains the visible content of the webpage.</li>
+          </ul>
+          <p>Example:</p>
+          <pre>
+          <code>&lt;!DOCTYPE html&gt;
+      &lt;html&gt;
+      &nbsp;&lt;head&gt;
+      &nbsp;&nbsp;&lt;title&gt;Basic HTML Structure&lt;/title&gt;
+      &nbsp;&lt;/head&gt;
+      &nbsp;&lt;body&gt;
+      &nbsp;&nbsp;&lt;h1&gt;Understanding HTML Layout&lt;/h1&gt;
+      &nbsp;&nbsp;&lt;p&gt;Each page follows a structured format.&lt;/p&gt;
+      &nbsp;&lt;/body&gt;
+      &lt;/html&gt;</code>
+          </pre>
+        </section>
+        <section class="main-section">
+          <header id="common_html_elements">Common HTML Elements</header>
+          <p>HTML provides various elements to format content. Here are a few important ones:</p>
+          <ul>
+            <li><code>&lt;h1&gt;</code> to <code>&lt;h6&gt;</code> – Headings of different sizes.</li>
+            <li><code>&lt;p&gt;</code> – Paragraphs for text content.</li>
+            <li><code>&lt;a&gt;</code> – Links to other pages.</li>
+            <li><code>&lt;img&gt;</code> – Embeds images.</li>
+            <li><code>&lt;ul&gt;</code> and <code>&lt;ol&gt;</code> – Lists for organizing content.</li>
+          </ul>
+          <p>Example:</p>
+          <pre>
+          <code>&lt;h2&gt;Example Elements&lt;/h2&gt;
+      &lt;p&gt;This is a paragraph.&lt;/p&gt;
+      &lt;a href="https://www.example.com"&gt;Visit Example&lt;/a&gt;</code>
+          </pre>
+        </section>
+        <section class="main-section">
+          <header id="lists_in_html">Lists in HTML</header>
+          <p>HTML supports both ordered and unordered lists:</p>
+      
+          <ul>
+            <li>Unordered List (<code>&lt;ul&gt;</code>):
+              <ul>
+                <li>Item 1</li>
+                <li>Item 2</li>
+                <li>Item 3</li>
+              </ul>
+            </li>
+            <li>Ordered List (<code>&lt;ol&gt;</code>):
+              <ol>
+                <li>First item</li>
+                <li>Second item</li>
+                <li>Third item</li>
+              </ol>
+            </li>
+          </ul>
+          <p>Example:</p>
+          <pre>
+          <code>&lt;ul&gt;
+          &nbsp;&lt;li&gt;Apple&lt;/li&gt;
+          &nbsp;&lt;li&gt;Banana&lt;/li&gt;
+          &nbsp;&lt;li&gt;Cherry&lt;/li&gt;
+      &lt;/ul&gt;</code>
+          </pre>
+        </section>
+        <section class="main-section">
+          <header id="adding_links_and_images">Adding Links and Images</header>
+          <p>Links and images help make web pages interactive:</p>
+      
+          <ul>
+            <li>Use <code>&lt;a href="URL"&gt;</code> to create hyperlinks.</li>
+            <li>Use <code>&lt;img src="URL" alt="Description"&gt;</code> to add images.</li>
+          </ul>
+          <p>Example:</p>
+          <pre>
+          <code>&lt;a href="https://www.example.com"&gt;Click here&lt;/a&gt;
+      &lt;img src="image.jpg" alt="A sample image"&gt;</code>
+          </pre>
+        </section>
+      </main>
+</body>
+</html>
